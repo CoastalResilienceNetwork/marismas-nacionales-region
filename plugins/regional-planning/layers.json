@@ -4,18 +4,25 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Baja/",
-            "name": "Baja"
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Marismas_Nacionales/",
+            "name": "Marismas_Nacionales"
         },
         "includeLayers": [
             {
-                "name": "Ecological Assets",
+                "name": "Poblaciones",
 				"includeAllLayers": true				
             },
 			{
-                "name": "Social and Economic Assets",
-				"includeAllLayers": true,	
-				"description" : "The Habitat map service features data including but not limited to salt marshes, sea grasses, and current and historical oyster reefs. A brief description and metadata appear when you click on each layer."
+                "name": "Zonificación",
+				"includeAllLayers": true	
+            },
+            {
+                "name": "Uso de suelo",
+				"includeAllLayers": true	
+            },
+            {
+                "name": "Biodiversidad",
+				"includeAllLayers": true	
             }
         ]
     }
