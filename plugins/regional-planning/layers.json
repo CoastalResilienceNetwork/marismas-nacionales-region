@@ -4,7 +4,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Baja/",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Baja/",
             "name": "Baja"
         },
         "includeLayers": [
