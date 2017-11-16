@@ -1,7 +1,7 @@
 [
     {
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Baja",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Baja",
             "folderTitle": "Baja",
             "folders": [
                 {
