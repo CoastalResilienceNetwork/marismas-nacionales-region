@@ -6,8 +6,6 @@
             "layerType": "dynamic",
             "url": "http://services.coastalresilience.org/arcgis/rest/services/Marismas_Nacionales/",
             "name": "Marismas_Nacionales"
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/Baja/",
-            "name": "Baja"
         },
         "includeLayers": [
             {

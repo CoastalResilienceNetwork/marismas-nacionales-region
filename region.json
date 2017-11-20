@@ -62,7 +62,7 @@
             "plugins": [
                 {
                     "title": "<img src='img/regional_planning.png' hspace=10>Regional Planning",
-                    "description": "Text here",
+                    "description": "Data to support regional-scale conservation and adaptation planning.",
                     "pluginName": "regional-planning"
                 }
             ],
