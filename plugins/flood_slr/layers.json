@@ -14,30 +14,5 @@
 				"includeAllLayers": true			
 			}
 		]
-        "agsSource": {
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/Baja",
-            "folderTitle": "Baja",
-            "folders": [
-                {
-					"name": "",
-                    "services": [
-						{ "name": "Baja", "type":"dynamic", "displayName":"Cyclone Odile 2014", "showLayers": [
-								{"id":57, "parentLayerId":-1 },
-								{"id":58, "parentLayerId":-1 },
-								{"id":59, "parentLayerId":-1 },
-								{"id":60, "parentLayerId":-1 },
-								{"id":61, "parentLayerId":-1 },
-								{"id":62, "parentLayerId":-1 },
-								{"id":63, "parentLayerId":-1 },
-								{"id":65, "parentLayerId":-1 },
-								{"id":66, "parentLayerId":-1 },
-								{"id":67, "parentLayerId":-1 },
-								{"id":68, "parentLayerId":-1 }
-							]
-						}	
-					]
-				}
-			]
-        }
 	}
 ]
