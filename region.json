@@ -1,0 +1,78 @@
+{
+    "language": "es",
+    "googleAnalyticsPropertyId": "7401895-16",
+    "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
+    "titleMain": { "text": "Mexico", "url": "" },
+    "titleDetail": { "text": "Marismas Nacionales", "url": "" },
+    "headerLinks": [
+        { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
+        { "text": "Datos legales", "url": "http://coastalresilience.org/terms-of-use/" }
+    ],
+    "regionLinks": [
+            { "text": "California", "url": "https://maps.coastalresilience.org/california" },
+            { "text": "Connecticut", "url": "https://maps.coastalresilience.org/connecticut" },
+            { "text": "Gulf of Mexico", "url": "https://maps.coastalresilience.org/gulfmex/" },
+            { "text": "Grenada, St. Vincent & the Grenadines", "url": "https://maps.coastalresilience.org/gsvg/" },
+            { "text": "MesoAmerican Reef", "url": "https://maps.coastalresilience.org/mar/" },
+            { "text": "New Jersey", "url": "https://maps.coastalresilience.org/newjersey" },
+            { "text": "Southeast Florida", "url": "https://maps.coastalresilience.org/seflorida/" },
+            { "text": "U.S. Virgin Islands", "url": "https://maps.coastalresilience.org/usvi/" },
+            { "text": "Washington", "url": "https://maps.coastalresilience.org/pugetsound" }
+    ],
+    "initialExtent": [
+        -120,
+        20,
+        -98,
+        35
+    ],
+    "basemaps": [
+        { "name": "Topográfica"        , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
+        { "name": "National Geographic", "url": "https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer" },
+        { "name": "Mar"              , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer" },
+        { "name": "Imágenes"            , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" },
+        { "name": "Physical"           , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer" },
+        { "name": "Shaded Relief"      , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer" },
+        { "name": "Calles"            , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
+        { "name": "Terreno"            , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
+    ],
+    "pluginOrder": [
+        "flood_slr",
+        "regional-planning",
+		"zoom_to",
+        "measure",
+        "legend_display",
+        "full_extent"
+    
+    ],
+    "print": {
+       "printServerUrl": "https://services2.coastalresilience.org/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+       "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework",
+       "headerLogoPath": "https://maps.coastalresilience.org/network/img/TNCLogoPrimary_RGB2.jpg"
+    },
+    "colors": {
+       "primary": "#22497A",
+       "secondary": "#3A72B9",
+       "tertiary": "#333333",
+       "active": "#0096D6"
+    },
+   "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
+    "launchpad": {
+            "title": "Marismas Nacionales",
+            "description": "<p>Marismas Nacionales...</p>",
+            "plugins": [
+                {
+                    "title": "<img src='img/regional_planning.png' hspace=10>Regional Planning",
+                    "description": "Data to support regional-scale conservation and adaptation planning.",
+                    "pluginName": "regional-planning"
+                }
+            ],
+            "partners": [
+                {
+                    "logoPath": "img/TNCLogoPrimary_RGB.png",
+                    "link": "http://nature.org",
+                    "title": "The Nature Conservancy"
+            }
+        ]
+    }
+}
+
